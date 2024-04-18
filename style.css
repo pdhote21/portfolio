@@ -1,0 +1,169 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+#left-heading{
+  margin-left: -50px;
+  margin-top: -5px;
+  font-size: medium;
+  
+}
+
+#bottom-heading{
+  margin-left: -50px;
+  margin-top: -5px;
+  font-size: medium;
+}
+#github{
+font-size: medium;
+margin-left: -50px;
+margin-top: -10px;
+}
+
+.clear {
+  clear:both;   
+}
+
+.test {
+  width:200px;
+  text-align:center;
+}
+
+.test a {
+   display:block;
+   float:left;
+   width:33%;
+}
+
+.left{
+  box-sizing: border-box;
+  width: 30%;
+  height: 175vh;
+  background-color: rgb(50, 50, 90);
+  float: left;
+  color: white;
+  padding: 20px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.contact-para{
+  margin-top: -5px;
+}
+
+
+.profile {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+p{
+
+  font-size: small ;
+}
+
+.name {
+  font-size: 23px;
+}
+
+.bio {
+  text-align: center;
+  margin-top: -5px;
+  font-weight: bold;
+  font-size:small;
+  
+}
+
+.connect-button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+}
+
+.right {
+  width: 70%;
+  height: 175vh;
+  background-color: rgb(24, 24, 26);
+  float: left;
+  color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+ padding: 10px;
+ margin: 5px;
+ margin-bottom: -15px;
+  color: black;
+  border-radius: 5px;
+}
+
+.line1{
+  width: 100px;
+  height:10px;
+  
+  
+  border: 1px solid black;
+
+}
+
+.nav-container h3 {
+  margin: 0;
+}
+
+.nav a {
+  color: gray;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  color: black;
+  transition: ease-in-out 500ms;
+}
+
+.line {
+  border-bottom: 5px solid grey;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 90%;
+  border-radius: 3px;
+}
+
+#contact{
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.content {
+  margin: 10px 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .left {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  .right {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+li {
+  font-size: small;
+}
+
+
+
